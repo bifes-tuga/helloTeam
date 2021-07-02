@@ -13,4 +13,4 @@ def root():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="127.0.0.1", port=PORT)
+    app.run(debug=True, host="0.0.0.0", port=PORT)
